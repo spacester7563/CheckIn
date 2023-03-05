@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "681818440749",
+    "project_id": "checkin-1f317",
+    "storage_bucket": "checkin-1f317.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681818440749:android:4750899f919b5f070664a4",
+        "android_client_info": {
+          "package_name": "com.spacester.checkin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681818440749-1mpve5oho2ctgjqdvprsmiisan2eetpr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spacester.checkin",
+            "certificate_hash": "cbe60fd2413f2d50ba379f725681291fc43baaa6"
+          }
+        },
+        {
+          "client_id": "681818440749-9tbglujq5p2eus898v0j8jr3e9d3otct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1Yv7deAVSy1qYJe_aN-eZQB6SffyMBVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681818440749-9tbglujq5p2eus898v0j8jr3e9d3otct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:textColor="#313131"
+                android:fontFamily="@font/black"
+                android:textSize="20sp"
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="#5A5A5A"
+                android:fontFamily="@font/bold"
+                android:textSize="18sp"
+                android:id="@+id/capacity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:textColor="@color/primary"
+                android:fontFamily="@font/bold"
+                android:textSize="18sp"
+                android:id="@+id/cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="12dp"
+        android:stateListAnimator="@null"
+        android:background="@drawable/radius_btn"
+        android:id="@+id/in"
+        android:fontFamily="@font/bold"
+        android:textColor="#fff"
+        android:text="Check In"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+/>
+
+    <Button
+        android:visibility="gone"
+        android:layout_marginTop="12dp"
+        android:stateListAnimator="@null"
+        android:background="@drawable/radius_btn"
+        android:id="@+id/out"
+        android:fontFamily="@font/bold"
+        android:textColor="#fff"
+        android:text="Check Out"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+    <TextView
+        android:textColor="#5A5A5A"
+        android:fontFamily="@font/bold"
+        android:textSize="18sp"
+        android:id="@+id/days"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/primary"
+        android:fontFamily="@font/bold"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:layout_marginTop="12dp"
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

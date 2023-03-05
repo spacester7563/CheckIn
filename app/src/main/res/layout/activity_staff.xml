@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".staff.StaffActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_back"
+            android:tint="#313131" />
+
+        <TextView
+            android:text="Staff Panel"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/black"
+            android:textSize="18sp"
+            android:textColor="#313131"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="28dp"
+            android:layout_marginStart="12dp"
+            android:id="@+id/add"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:tint="#474747"
+                android:src="@drawable/ic_round_add_circle_24"
+                android:layout_width="28dp"
+                android:layout_height="28dp"/>
+
+            <TextView
+                android:layout_marginStart="8dp"
+                android:text="Add Room"
+                android:textSize="18sp"
+                android:fontFamily="@font/black"
+                android:textColor="#474747"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginStart="12dp"
+            android:id="@+id/rooms"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:tint="#474747"
+                android:src="@drawable/ic_round_preview_24"
+                android:layout_width="28dp"
+                android:layout_height="28dp"/>
+
+            <TextView
+                android:layout_marginStart="8dp"
+                android:text="All Room"
+                android:textSize="18sp"
+                android:fontFamily="@font/black"
+                android:textColor="#474747"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginStart="12dp"
+            android:id="@+id/customer"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:tint="#474747"
+                android:src="@drawable/ic_round_group_24"
+                android:layout_width="28dp"
+                android:layout_height="28dp"/>
+
+            <TextView
+                android:layout_marginStart="8dp"
+                android:text="Customer"
+                android:textSize="18sp"
+                android:fontFamily="@font/black"
+                android:textColor="#474747"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginStart="12dp"
+            android:id="@+id/bookings"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:tint="#474747"
+                android:src="@drawable/ic_invite"
+                android:layout_width="28dp"
+                android:layout_height="28dp"/>
+
+            <TextView
+                android:layout_marginStart="8dp"
+                android:text="Bookings"
+                android:textSize="18sp"
+                android:fontFamily="@font/black"
+                android:textColor="#474747"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".emailAuth.RegisterActivity">
+
+    <ImageView
+        android:src="@drawable/ic_back"
+        android:layout_margin="15dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        app:tint="#818181" />
+
+    <TextView
+        android:textColor="@color/primary"
+        android:textSize="40sp"
+        android:fontFamily="@font/black"
+        android:text="Sing Up"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="#313131"
+        android:textSize="16sp"
+        android:fontFamily="@font/bold"
+        android:text="Enter your details"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:background="@drawable/radius_btn"
+        android:layout_marginHorizontal="15dp"
+        android:hint="Name"
+        android:id="@+id/name"
+        android:fontFamily="@font/bold"
+        android:textColor="#313131"
+        android:paddingHorizontal="10dp"
+        android:inputType="text"
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:background="@drawable/radius_btn"
+        android:layout_marginHorizontal="15dp"
+        android:hint="Email"
+        android:fontFamily="@font/bold"
+        android:id="@+id/email"
+        android:textColor="#313131"
+        android:paddingHorizontal="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:background="@drawable/radius_btn"
+        android:layout_marginHorizontal="15dp"
+        android:hint="password"
+        android:id="@+id/password"
+        android:fontFamily="@font/bold"
+        android:textColor="#313131"
+        android:paddingHorizontal="10dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <EditText
+        android:background="@drawable/radius_btn"
+        android:layout_marginHorizontal="15dp"
+        android:hint="Phone no."
+        android:id="@+id/phone"
+        android:fontFamily="@font/bold"
+        android:textColor="#313131"
+        android:paddingHorizontal="10dp"
+        android:inputType="phone"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/singUp"
+        android:fontFamily="@font/black"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:stateListAnimator="@null"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:textColor="#313131"
+        android:textSize="16sp"
+        android:id="@+id/login"
+        android:fontFamily="@font/bold"
+        android:text="Create a new account"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

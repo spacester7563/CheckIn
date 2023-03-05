@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.spacester.checkin">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CheckIn">
+        <activity
+            android:name=".PrivacyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TermsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.CheckInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".staff.BookingsListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".home.BookRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".staff.UserListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".staff.RoomsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".staff.AddRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".staff.StaffActivity"
+            android:exported="false" />
+        <activity
+            android:name=".emailAuth.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".emailAuth.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".phoneAuth.SignUpPhoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".phoneAuth.VerifyOTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".phoneAuth.PhoneNoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".welcome.WalkThroughActivity"
+            android:exported="false"
+            android:theme="@style/WalkthroughTheme" />
+        <activity
+            android:name=".welcome.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
